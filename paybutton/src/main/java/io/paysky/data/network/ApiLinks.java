@@ -6,7 +6,7 @@ package io.paysky.data.network;
 
 public class ApiLinks {
 
-    private static final String CUBE_GATEWAY = "Cube/PayLink.svc/";
+    private static final String CUBE_GATEWAY = "PayLink.svc/";
     private static final String API = "api/";
 
     public static final String EXECUTE_PAYMENT = CUBE_GATEWAY + API + "PayByCard";
@@ -21,9 +21,8 @@ public class ApiLinks {
     public static final String DELETE_TOKENIZED_CARD = CUBE_GATEWAY + API + "RemoveToken";
     public static final String CHANGE_DEFAULT_CARD = CUBE_GATEWAY + API + "ChangeDefaultToken";
 
-    public static final String GRAY_LINK = "https://grey.paysky.io/";
-    public static final String GIM_PAYMENT_LINK = "https://omni-uat.gimpay.org/";
+    public static final String GRAY_LINK = "https://omni-uat.gimpay.org/Cube/";
+    public static final String GIM_PAYMENT_LINK = "https://omni.gimpay.org/";
 
     public static String PAYMENT_LINK = GIM_PAYMENT_LINK;
 }
-

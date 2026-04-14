@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity
 
     private final String[] list_to_show = {"PRODUCTION", "TESTING"};
     private String[] authenticationTypes;
-    private final AllURLsStatus[] list_to_URLS = {AllURLsStatus.PRODUCTION, AllURLsStatus.GREY};
+    private final AllURLsStatus[] list_to_URLS = {AllURLsStatus.PRODUCTION, AllURLsStatus.TESTING};
     private int item_position = 0;
 
     private int selectedAuthType = -1;
