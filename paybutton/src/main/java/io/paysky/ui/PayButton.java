@@ -98,7 +98,7 @@ public class PayButton {
             case PRODUCTION:
                 ApiLinks.PAYMENT_LINK = ApiLinks.GIM_PAYMENT_LINK;
                 break;
-            case GREY:
+            case TESTING:
                 ApiLinks.PAYMENT_LINK = ApiLinks.GRAY_LINK;
                 break;
         }
