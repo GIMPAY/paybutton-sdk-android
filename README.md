@@ -26,7 +26,7 @@ maven { url 'https://jitpack.io' }
 ```
 3. In your build.gradle file in app level in dependencies{} add
 ```
-implementation 'com.github.GIMPAY:paybutton:0.1.8'
+implementation 'com.github.GIMPAY:paybutton:1.0.0'
 ```
 4. Sync your project.
 
@@ -67,7 +67,7 @@ payButton.setTerminalId(terminalId); // Terminal  id
 payButton.setPayAmount(amount); // Amount
 payButton.setCurrencyCode(currencyCode); // Currency code
 payButton.setMerchantSecureHash("secure_hash_key"); // Secure hash key
-payButton.setProductionStatus(PRODUCTION);                                   // for testing environment use GREY
+payButton.setProductionStatus(PRODUCTION);                                   // for testing environment use TESTING
 // you can get reference number from AppUtils.generateRandomNumber();   
 payButton.setTransactionReferenceNumber(AppUtils.generateRandomNumber());    // unique reference number [Optional]
 payButton.setCustomerMobile("xxxxxxxxxx");
@@ -80,7 +80,7 @@ payButton.setTerminalId(terminalId); // Terminal  id
 payButton.setPayAmount(amount); // Amount
 payButton.setCurrencyCode(currencyCode); // Currency code
 payButton.setMerchantSecureHash("secure_hash_key"); // Secure hash key
-payButton.setProductionStatus(PRODUCTION);                                   // for testing environment use GREY
+payButton.setProductionStatus(PRODUCTION);                                   // for testing environment use TESTING
 // you can get reference number from AppUtils.generateRandomNumber();   
 payButton.setTransactionReferenceNumber(AppUtils.generateRandomNumber());    // unique reference number [Optional]
 payButton.setCustomerEmail("joe@name.com");
@@ -93,7 +93,7 @@ payButton.setTerminalId(terminalId); // Terminal  id
 payButton.setPayAmount(amount); // Amount
 payButton.setCurrencyCode(currencyCode); // Currency code
 payButton.setMerchantSecureHash("secure_hash_key"); // Secure hash key
-payButton.setProductionStatus(PRODUCTION);                                   // for testing environment use GREY
+payButton.setProductionStatus(PRODUCTION);                                   // for testing environment use TESTING
 // you can get reference number from AppUtils.generateRandomNumber();   
 payButton.setTransactionReferenceNumber(AppUtils.generateRandomNumber());    // unique reference number [Optional]
 payButton.setCustomerId("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx");
